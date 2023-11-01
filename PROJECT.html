@@ -1,0 +1,800 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Header Design</title>
+<link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+<style>
+    .card{
+        width:250px;
+        box-shadow: 3px 3px 3px black;
+        padding: 10px;
+        margin: 10px;
+    }
+    img{
+        width:100%;
+        height:150px
+    }
+    .card-header{
+        height: 200px;
+    }
+    .card-body{
+        height: 100px;
+        text-align: center;
+        margin-top:-20px;
+    }
+    .title{
+        font-size: 20px;
+        font-family: arial;
+    }
+    .card-footer{
+        height: 30px;
+    }
+    button{
+        width: 100%;
+        background-color: goldenrod;
+        font-size: 20px;
+        color: white;
+        border: none;
+        padding: 5px;
+    }
+     aside{
+            font-size: 35px;
+            color: blue;
+            background: white;
+            position: fixed;
+            right: 20px;
+            bottom: 15px;
+        }
+        aside div{
+            margin-bottom: 8px;
+        }
+        figure{
+            width:200px ;
+            height:250px ;
+            border: dotted blue;
+            padding: 20px;
+        }
+        figure div{
+            width: 100px;
+            height: 100px;
+            border: 5px dotted gray;
+        }    
+    body{
+            background-size:1;
+            background-repeat:no-repeat;
+            background-attachment:fixed;
+            color: white;
+            font-family: arial; 
+        }
+        marquee{
+            background: fixed;
+            background-color: rgb(64, 150, 255);
+            color: black;
+            padding: 5px;
+            margin-left: 10;
+            margin-right: 10;
+        }
+        .shade{
+            height: 100px;
+            width: 100%;
+            background-color: rgba(red, green, blue, alpha);
+            margin-left: -10px;
+            margin-right: -20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .title{
+            font-size: 50px;
+            font-weight: bold;
+            text-align: center;
+        }
+     header {
+         display: flex;
+         justify-content: space-between;
+         font-size: 20px;
+         font-family: Arial, Helvetica, sans-serif;
+         padding: 20px;
+         background-color:  rgb(118, 163, 240);
+         color: white;
+     }
+     .arch{
+        display:flex;
+        flex-wrap:wrap;
+     }
+     span {
+        margin-right: 20px;
+     }
+     .header-title {
+        font-size: 25px;
+        font-weight: bold;
+     }
+    .bi-globe{
+        color: rgb(58, 234, 19);
+     }
+     section {
+        height: 10px;
+     }
+     footer {
+        background-color: rgb(114, 204, 239);
+        color:rgb(8, 14, 9);
+        padding: 10px;
+        display: grid;
+        grid-template-columns: 3fr 3fr 3fr 3fr;
+        font-family: Arial;
+}
+.footer-title {
+font-size: 25px;
+font-weight: bold;
+margin-bottom: 10px;
+}
+.title {
+font-weight: bold;
+margin-bottom: 20px;
+}
+.title~div {
+margin-bottom: 5px;
+}
+.reating{
+    margin-top:25px;
+}
+.bi-star-fill{
+    color:red;
+}
+.sudh{
+    font-family:arial;
+   
+}
+nav button:hover{
+    background-color:green;
+    color:brown;
+    cursor:grab;
+    transition:1s;
+    font-size:25px;
+}
+</style>
+</head>
+<body>
+<header>
+<div>
+ <span class="header-title">Travel And Tourism</span>
+</div>
+<div>
+<nav>
+    <span>Home</span>
+    <span>country</span>
+    <span>state</span>
+    <span>city</span>
+    <span>Places</span>
+    <span>hotel</span>
+ </nav>
+</div>
+<div>
+ <span class="bi bi-search"></span>
+ <span class="bi bi-heart"></span>
+ <span class="bi bi-cart"></span>
+ <span class="bi bi-person"></span>
+</div>
+</header>
+<body background="image/mountain (2).jpg">
+    <div class="shade">
+        <main>
+            <div class="title">
+                Thanku For Visit Travel and Tourism
+            </div>
+    </div>
+    <marquee bhavior="scroll"direction="left"scrollamount="10">
+        <h2>OFFER DEAL:
+            <p1>ANY SEASON 30% OFF:-
+                phone:3254898599,
+                Email:TRAVELANDTourism@fild.in
+            </p1>
+        </h2>
+    </marquee>
+    <div class="arch"> 
+<div class="container">
+    <div class="card">
+        <div class="card-header">
+            <img src="image/bihar.jpg">
+        </div>
+        <div class="card-body">
+            <h2>BIHAR</h2>
+            <div class="reating">
+                <span class="bi bi-star-fill"></span>
+                <span class="bi bi-star-fill"></span>
+                <span class="bi bi-star-fill"></span>
+                <span class="bi bi-star-fill"></span>
+                <span class="bi bi-star-fill"></span>
+            </div>
+        <div class="card-footer">
+            <nav><button> visit</button></nav>
+        </div>
+    </div>
+    </div>
+</div>
+<div class="container">
+    <div class="card">
+        <div class="card-header">
+            <img src="image/delhi.jpeg">
+        </div>
+        <div class="card-body">
+            <h2>Haryana</h2>
+            <div class="reating">
+                <span class="bi bi-star-fill"></span>
+                <span class="bi bi-star-fill"></span>
+                <span class="bi bi-star-fill"></span>
+                <span class="bi bi-star-fill"></span>
+                <span class="bi bi-star-fill"></span>
+        </div>
+        <div class="card-footer">
+            <nav><button> visit</button></nav>
+        </div>
+    </div>
+    </div>
+</div>
+<div class="container">
+    <div class="card">
+        <div class="card-header">
+            <img src="image/goa.jpeg">
+        </div>
+        <div class="card-body">
+            <h2>Goa</h2>
+            <div class="reating">
+                <span class="bi bi-star-fill"></span>
+                <span class="bi bi-star-fill"></span>
+                <span class="bi bi-star-fill"></span>
+                <span class="bi bi-star-fill"></span>
+                <span class="bi bi-star-fill"></span>
+        </div>
+        <div class="card-footer">
+            <nav><button> visit</button></nav>
+        </div>
+    </div>
+    </div>
+</div>
+<div class="container">
+    <div class="card">
+        <div class="card-header">
+            <img src="image/manipur.png">
+        </div>
+        <div class="card-body">
+            <h2>Manipur</h2>
+            <div class="reating">
+                <span class="bi bi-star-fill"></span>
+                <span class="bi bi-star-fill"></span>
+                <span class="bi bi-star-fill"></span>
+                <span class="bi bi-star-fill"></span>
+                <span class="bi bi-star-fill"></span>
+        </div>
+        <div class="card-footer">
+            <nav><button> visit</button></nav>
+        </div>
+    </div>
+    </div>
+</div>
+<div class="container">
+    <div class="card">
+        <div class="card-header">
+            <img src="image/mp.jpeg">
+        </div>
+        <div class="card-body">
+            <h2 class="sudh">Madhya Pradesh</h2>
+            <div class="reating">
+                <span class="bi bi-star-fill"></span>
+                <span class="bi bi-star-fill"></span>
+                <span class="bi bi-star-fill"></span>
+                <span class="bi bi-star-fill"></span>
+                <span class="bi bi-star-fill"></span>
+        </div>
+        <div class="card-footer">
+            <nav><button> visit</button></nav>
+    </div>
+</div>
+</div>
+</div>
+<div class="container">
+    <div class="card">
+        <div class="card-header">
+            <img src="image/mumbai.jpeg">
+        </div>
+        <div class="card-body">
+            <h2>Maharastra</h2>
+            <div class="reating">
+                <span class="bi bi-star-fill"></span>
+                <span class="bi bi-star-fill"></span>
+                <span class="bi bi-star-fill"></span>
+                <span class="bi bi-star-fill"></span>
+                <span class="bi bi-star-fill"></span>
+        </div>
+        <div class="card-footer">
+            <nav><button> visit</button></nav>
+        </div>
+    </div>
+    </div>
+</div>
+<div class="container">
+    <div class="card">
+        <div class="card-header">
+            <img src="image/nagaland.jpg">
+        </div>
+        <div class="card-body">
+           <h2 class="sudh">Arunachal Pradesh</h2>
+            <div class="reating">
+                <span class="bi bi-star-fill"></span>
+                <span class="bi bi-star-fill"></span>
+                <span class="bi bi-star-fill"></span>
+                <span class="bi bi-star-fill"></span>
+                <span class="bi bi-star-fill"></span>
+        </div>
+        <div class="card-footer">
+            <nav><button> visit</button></nav>
+        </div>
+    </div>
+    </div>
+</div>
+<div class="container">
+    <div class="card">
+        <div class="card-header">
+            <img src="image/orissa.jpg">
+        </div>
+        <div class="card-body">
+            <h2>Odisha</h2>
+            <div class="reating">
+                <span class="bi bi-star-fill"></span>
+                <span class="bi bi-star-fill"></span>
+                <span class="bi bi-star-fill"></span>
+                <span class="bi bi-star-fill"></span>
+                <span class="bi bi-star-fill"></span>
+        </div>
+        <div class="card-footer">
+            <nav><button> visit</button></nav>
+        </div>
+    </div>
+    </div>
+</div>
+<div class="container">
+    <div class="card">
+        <div class="card-header">
+            <img src="image/panjab.jpg">
+        </div>
+        <div class="card-body">
+            <h2>Panjab</h2>
+            <div class="reating">
+                <span class="bi bi-star-fill"></span>
+                <span class="bi bi-star-fill"></span>
+                <span class="bi bi-star-fill"></span>
+                <span class="bi bi-star-fill"></span>
+                <span class="bi bi-star-fill"></span>
+        </div>
+        <div class="card-footer">
+            <nav><button> visit</button></nav>
+        </div>
+    </div>
+    </div>
+</div>
+<div class="container">
+    <div class="card">
+        <div class="card-header">
+            <img src="image/rajsthan.jpeg">
+        </div>
+        <div class="card-body">
+            <h2>Rajsthan</h2>
+            <div class="reating">
+                <span class="bi bi-star-fill"></span>
+                <span class="bi bi-star-fill"></span>
+                <span class="bi bi-star-fill"></span>
+                <span class="bi bi-star-fill"></span>
+                <span class="bi bi-star-fill"></span>
+        </div>
+        <div class="card-footer">
+            <nav><button> visit</button></nav>
+        </div>
+    </div>
+    </div>
+</div>
+    <div class="container">
+        <div class="card">
+            <div class="card-header">
+                <img src="image/ap.jpg">
+            </div>
+            <div class="card-body">
+               <h2 class="sudh">Andhra pradesh</h2>
+                <div class="reating">
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star-fill"></span>
+            </div>
+            <div class="card-footer">
+                <nav><button> visit</button></nav>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card">
+            <div class="card-header">
+                <img src="image/assam.jpg">
+            </div>
+            <div class="card-body">
+               <h2 class="sudh">Assam</h2>
+                <div class="reating">
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star-fill"></span>
+            </div>
+            <div class="card-footer">
+                <nav><button> visit</button></nav>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card">
+            <div class="card-header">
+                <img src="image/chhatighar.avif">
+            </div>
+            <div class="card-body">
+               <h2 class="sudh">Chhattisghar</h2>
+                <div class="reating">
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star-fill"></span>
+            </div>
+            <div class="card-footer">
+                <nav><button> visit</button></nav>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card">
+            <div class="card-header">
+                <img src="image/gujrat.jpg">
+            </div>
+            <div class="card-body">
+               <h2 class="sudh">Gujarat</h2>
+                <div class="reating">
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star-fill"></span>
+            </div>
+            <div class="card-footer">
+                <nav><button> visit</button></nav>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card">
+            <div class="card-header">
+                <img src="image/himanchal.jpeg">
+            </div>
+            <div class="card-body">
+               <h2 class="sudh">Himachal pradesh</h2>
+                <div class="reating">
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star-fill"></span>
+            </div>
+            <div class="card-footer">
+                <nav><button> visit</button></nav>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card">
+            <div class="card-header">
+                <img src="image/jharkhand.avif">
+            </div>
+            <div class="card-body">
+               <h2 class="sudh">Jharkhand</h2>
+                <div class="reating">
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star-fill"></span>
+            </div>
+            <div class="card-footer">
+                <nav><button> visit</button></nav>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card">
+            <div class="card-header">
+                <img src="image/karnataka.jpg">
+            </div>
+            <div class="card-body">
+               <h2 class="sudh">Karnataka</h2>
+                <div class="reating">
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star-fill"></span>
+            </div>
+            <div class="card-footer">
+                <nav><button> visit</button></nav>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card">
+            <div class="card-header">
+                <img src="image/Kerala.jpg">
+            </div>
+            <div class="card-body">
+               <h2 class="sudh">Keral</h2>
+                <div class="reating">
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star-fill"></span>
+            </div>
+            <div class="card-footer">
+                <nav><button> visit</button></nav>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card">
+            <div class="card-header">
+                <img src="image/meghalya.jpeg">
+            </div>
+            <div class="card-body">
+               <h2 class="sudh">Meghalaya</h2>
+                <div class="reating">
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star-fill"></span>
+                </div>
+                <div class="card-footer">
+                <nav><button> visit</button></nav>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card">
+            <div class="card-header">
+                <img src="image/mizoram.jpg">
+            </div>
+            <div class="card-body">
+               <h2 class="sudh">Mizoram</h2>
+                <div class="reating">
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star-fill"></span>
+            </div>
+            <div class="card-footer">
+                <nav><button> visit</button></nav>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card">
+            <div class="card-header">
+                <img src="image/nagaland.jpeg">
+            </div>
+            <div class="card-body">
+               <h2 class="sudh">Nagaland</h2>
+                <div class="reating">
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star-fill"></span>
+            </div>
+            <div class="card-footer">
+              <nav><button> visit</button></nav>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card">
+            <div class="card-header">
+                <img src="image/sikkim.jpeg">
+            </div>
+            <div class="card-body">
+               <h2 class="sudh">Sikkim</h2>
+                <div class="reating">
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star-fill"></span>
+            </div>
+            <div class="card-footer">
+               <nav><button> visit</button></nav>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card">
+            <div class="card-header">
+                <img src="image/-tamil-nadu.jpg">
+            </div>
+            <div class="card-body">
+               <h2 class="sudh">Tamil Nadu</h2>
+                <div class="reating">
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star-fill"></span>
+            </div>
+            <div class="card-footer">
+               <nav><button> visit</button></nav>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="container">
+        <div class="card">
+            <div class="card-header">
+                <img src="image/telanga.jpeg">
+            </div>
+            <div class="card-body">
+               <h2 class="sudh">Telanganga</h2>
+                <div class="reating">
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star-fill"></span>
+            </div>
+            <div class="card-footer">
+                <nav><button> visit</button></nav>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card">
+            <div class="card-header">
+                <img src="image/tripura.jpeg">
+            </div>
+            <div class="card-body">
+               <h2 class="sudh">Tripura</h2>
+                <div class="reating">
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star-fill"></span>
+            </div>
+            <div class="card-footer">
+                <nav><button> visit</button></nav>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card">
+            <div class="card-header">
+                <img src="image/up.jpeg">
+            </div>
+            <div class="card-body">
+               <h2 class="sudh">Uttar pradesh</h2>
+                <div class="reating">
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star-fill"></span>
+            </div>
+            <div class="card-footer">
+                <nav><button> visit</button></nav>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="container">
+        <div class="card">
+            <div class="card-header">
+                <img src="image/uttarakhand.jpg">
+            </div>
+            <div class="card-body">
+               <h2 class="sudh">Uttarakhand</h2>
+                <div class="reating">
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star-fill"></span>
+            </div>
+            <div class="card-footer">
+                <nav><button> visit</button></nav>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card">
+            <div class="card-header">
+                <img src="image/west bengal.jpg">
+            </div>
+            <div class="card-body">
+               <h2 class="sudh">West bengal</h2>
+                <div class="reating">
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star-fill"></span>
+                    <span class="bi bi-star-fill"></span>
+            </div>
+            <div class="card-footer">
+                <nav><button> visit</button></nav>
+            </div>
+            </div>
+            </div>
+</div>
+</div>
+</body>
+<section>
+</section>
+<footer>
+<div>
+<div class="footer-title"><font size="6" color="red">Travel and Turism</font></div>
+<div>
+         <span class="bi bi-facebook"></span></a>
+         <span class="bi bi-instagram"></span></a>
+         <span class="bi bi-youtube"></span></a>
+         <span class="bi-twitter"></span></a>
+         <a href="https://web.whatsapp.com/"><span class="bi bi-whatsapp"></span></a> 
+</div>
+</div>
+<div>
+    <div class="title">SUPPORT</div>
+    <div>Contact Us</div>
+    <div>FAQs</div>
+    <div>Travel Guide</div>
+    <div>Extra Details</div>
+</div>
+<div>
+    <div class="title">COMPANY</div>
+    <div>Our Story</div>
+    <div>Careers</div>
+    <div>Terms & Conditions</div>
+    <div>Privacy & Cookie policy</div>
+</div>
+<div>
+    <div class="title">CONTACT</div>
+    <address>
+        <div>1-202-555-0106</div>
+        <div>1-202-555-0105</div>
+        <div>help@Travel and Turism.com</div>
+    </address>
+</div>
+</footer>
+</body>
+</html>
+
+
+
